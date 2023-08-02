@@ -1,17 +1,61 @@
-# React + TypeScript + Vite
+# Yachai Frontend 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Yachai frontend  es la interfaz de Figma del proyecto yachai, al cual le falta funcionalidad y que se agregará en el futuro. Este proyecto está desarrollado utilizando React y Vite.
 
-Currently, two official plugins are available:
+## Instalación
+Para instalar y ejecutar el proyecto, sigue estos pasos:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Asegúrate de tener Node.js instalado (versión 16 o superior).
+2. Ejecuta el siguiente comando para instalar las dependencias:
 
-## Expanding the ESLint configuration
+> npm install
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Luego, inicia el servidor de desarrollo con el siguiente comando:
 
-- Configure the top-level `parserOptions` property like this:
+> npm run dev
+Esto iniciará la aplicación y estará disponible en http://localhost:3000.
+
+## Requisitos del Sistema
+- Node.js (versión 16 o superior).
+
+## Estado del Proyecto
+El proyecto se encuentra en construcción, y aún faltan pulir muchas cosas. Tu contribución es bienvenida para mejorar y añadir nuevas funcionalidades.
+
+## Contribución
+Autor principal:
+- Edu Falcon
+
+Si deseas contribuir al proyecto, sigue los siguientes pasos:
+1. Haz un fork de este repositorio y clona el fork en tu máquina local.
+2. Crea una nueva rama para trabajar en tu mejora o corrección.
+3. Realiza los cambios necesarios y asegúrate de que las pruebas pasen correctamente.
+4. Envía una solicitud de extracción (Pull Request) explicando los cambios realizados.
+
+## Contacto
+Si tienes alguna pregunta o comentario sobre el proyecto, no dudes en contactarme a través de mi correo electrónico: elisenop@gmail.com
+
+¡Gracias por tu interés en el proyecto yachai frontend !
+
+
+ 
+
+
+
+## Esta aplicacion fue construido con  React + TypeScript + Vite
+
+Esta plantilla proporciona una configuración mínima para hacer funcionar React en Vite con HMR (Hot Module Replacement) y algunas reglas de ESLint.
+
+Actualmente, hay dos complementos oficiales disponibles:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) utiliza [Babel](https://babeljs.io/) para Fast Refresh (recarga rápida).
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) utiliza [SWC](https://swc.rs/) para Fast Refresh (recarga rápida).
+
+## Ampliación de la configuración de ESLint
+
+Si estás desarrollando una aplicación para producción, te recomendamos actualizar la configuración para habilitar reglas de lint (análisis estático) que sean conscientes de los tipos:
+
+- Configura la propiedad `parserOptions` a nivel superior de esta manera:
 
 ```js
    parserOptions: {
@@ -20,8 +64,4 @@ If you are developing a production application, we recommend updating the config
     project: ['./tsconfig.json', './tsconfig.node.json'],
     tsconfigRootDir: __dirname,
    },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list

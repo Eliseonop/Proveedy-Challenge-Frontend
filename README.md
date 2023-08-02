@@ -3,7 +3,7 @@
 ## Descripción
 Yachai frontend  es la interfaz de Figma del proyecto yachai, al cual le falta funcionalidad y que se agregará en el futuro. Este proyecto está desarrollado utilizando React y Vite.
 
-#Notas:
+# Notas:
 El login es simulado asi que cual quier valor es aceptado:
 ![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/279eed06-82cc-49f7-9818-1f85727baa9f)
 

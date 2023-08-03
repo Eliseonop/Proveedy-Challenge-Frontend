@@ -14,7 +14,7 @@ El login es simulado asi que cual quier valor es aceptado:
 ![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/a832952e-2eee-47c1-afc6-223509e3763c)
 
 
- > El boton crear quiz les lleva al apartado de crear quiz.
+ > El boton crear quiz les lleva al apartado de crear quiz. example: http://localhost:5173/quiz
 
 ![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/61aebf4f-ab2c-4144-9a5d-22e0a70b5a0d)
 

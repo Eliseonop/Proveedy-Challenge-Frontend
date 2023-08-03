@@ -11,7 +11,8 @@ El login es simulado asi que cual quier valor es aceptado:
 ![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/61aebf4f-ab2c-4144-9a5d-22e0a70b5a0d)
 
  > Apartado de crear quiz:
-![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/12003995-5250-4181-99cd-240275a9d03d)
+![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/ec393eb6-09ee-4b24-a999-c1f3a3270948)
+
 
 
 

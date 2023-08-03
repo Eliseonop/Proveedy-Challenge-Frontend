@@ -3,15 +3,28 @@
 ## Descripción
 Yachai frontend  es la interfaz de Figma del proyecto yachai, al cual le falta funcionalidad y que se agregará en el futuro. Este proyecto está desarrollado utilizando React y Vite.
 
+# Link Deploy
+> https://proveedy-challenge-frontend-falcon-edu.vercel.app/login
+
 # Notas:
+
+
 El login es simulado asi que cual quier valor es aceptado:
 ![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/279eed06-82cc-49f7-9818-1f85727baa9f)
 
- > El boton crear quiz les lleva al apartado de crear quiz.
+> Principal Landing
+
+![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/a832952e-2eee-47c1-afc6-223509e3763c)
+
+
+ > El boton crear quiz les lleva al apartado de crear quiz. example: http://localhost:5173/quiz
+
 ![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/61aebf4f-ab2c-4144-9a5d-22e0a70b5a0d)
 
  > Apartado de crear quiz:
-![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/12003995-5250-4181-99cd-240275a9d03d)
+
+![image](https://github.com/Eliseonop/Proveedy-Challenge-Frontend-Falcon-Edu/assets/59000093/ec393eb6-09ee-4b24-a999-c1f3a3270948)
+
 
 
 

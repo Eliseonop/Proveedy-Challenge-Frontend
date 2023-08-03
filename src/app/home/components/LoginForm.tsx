@@ -2,7 +2,8 @@ import { useState, ChangeEvent, useEffect } from 'react'
 import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 import {} from 'react-router-dom'
 import { useUserAuth } from '../../../context/useUserAuth'
-
+import { BsFillPersonFill } from 'react-icons/bs'
+import { RiLockPasswordLine } from 'react-icons/ri'
 interface LoginFormState {
   username: string
   password: string
@@ -52,26 +53,22 @@ export function LoginForm () {
   return (
     <div>
       <div className='mx-auto mt-20'>
-        <div className='w-full max-w-md mx-auto'>
+        <div className='my-10'>
+          <div className='text-center text-3xl text-white font-bold'>
+            Inicia Session
+          </div>
+        </div>
+
+        <div className='w-full max-w-md mx-auto flex flex-col'>
           <form
             className='bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4'
             onSubmit={handleSubmit}
           >
             <div className='mb-4'>
-              <div className='flex items-center'>
-                <span className='input-group-text'>
-                  <svg
-                    className='h-6 w-6 text-gray-600'
-                    fill='none'
-                    stroke='currentColor'
-                    viewBox='0 0 24 24'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    {/* SVG path for the user icon */}
-                  </svg>
-                </span>
+              <div className='flex items-center justify-center space-x-2 '>
+                <BsFillPersonFill className='h-6 w-6 text-gray-600' />
                 <input
-                  className='form-input rounded-r-none rounded-l-md flex-1 appearance-none border rounded py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                  className='rounded-md flex-1 appearance-none border  py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                   id='username'
                   type='text'
                   placeholder='Username'
@@ -82,18 +79,8 @@ export function LoginForm () {
               </div>
             </div>
             <div className='mb-4'>
-              <div className='flex items-center'>
-                <span className='input-group-text'>
-                  <svg
-                    className='h-6 w-6 text-gray-600'
-                    fill='none'
-                    stroke='currentColor'
-                    viewBox='0 0 24 24'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    {/* SVG path for the lock icon */}
-                  </svg>
-                </span>
+              <div className='flex items-center justify-center space-x-2'>
+                <RiLockPasswordLine className='h-6 w-6 text-gray-600' />
                 <input
                   className='form-input rounded-r-none rounded-l-md flex-1 appearance-none border rounded py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                   id='password'

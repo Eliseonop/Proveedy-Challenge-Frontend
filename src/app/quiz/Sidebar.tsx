@@ -13,9 +13,10 @@ export const Sidebar = () => {
         <li className='py-2   border-b-2 border-b-500 pl-2  font-bold'>
           Item 1
         </li>
-        <li className='py-2 border-b-2 border-b-500 pl-2  '>Item 2</li>
-        <li className='py-2  border-b-2 border-b-500 pl-2 '>Item 3</li>
-        <li className='py-2   border-b-2 border-b-500 pl-2'>Item 3</li>
+        <li className='py-2 border-b-2 border-b-500 pl-2  '>Display</li>
+        <li className='py-2  border-b-2 border-b-500 pl-2 '>Behaviour</li>
+        <li className='py-2   border-b-2 border-b-500 pl-2'>Data Collection</li>
+        <li className='py-2   border-b-2 border-b-500 pl-2'>Summary</li>
       </ul>
     </div>
   )
